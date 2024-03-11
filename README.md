@@ -11,6 +11,8 @@ Small (<17Mb) Alpine Linux image with preinstalled ```cowsay``` and ```fortune``
 
 ## Getting Started
 
+Get it on [Docker Hub](https://hub.docker.com/r/vspl/cowsay), or build the image yourself:
+
 ```bash
 docker build -t cowsay .
 docker run --rm cowsay # or `docker run --rm cowsay [your message]`
